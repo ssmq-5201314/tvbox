@@ -34,7 +34,8 @@
 	"搜索图片": "img\":\"&&\"",
 	"搜索标题": "itle\":\"&&\"",
 	"搜索链接": "url\":\"&&\"",
-	"分类url": "https://www.4kvm.org/{cateId}/page/{catePg};;d0",
-	"分类": "电影$movies#美剧$classify/meiju#国产剧$classify/guochan#韩剧$classify/hanju#番剧$classify/fanju",
+		//https://www.4kvm.org/filter?classify=1&page=2
+	"分类url": "https://www.4kvm.org/filter?classify={cateId}&page={catePg};;d0",
+	"分类": "电影$1#电视$2#动漫$3#综艺$4",
 	"筛选": ""
 }
