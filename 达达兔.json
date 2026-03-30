@@ -1,0 +1,53 @@
+{
+  "作者": "张弘",
+  "站名": "达达兔影院",
+  "主页url": "https://www.stonelodgeacademy.com/",
+  "二次截取": "div.video-grid&&</div>",
+  "数组": "div.video-card&&</div>",
+  "图片": "img[data-src=\"&&\"]",
+  "标题": "h3.video-title&&</h3>",
+  "链接": "a.video-thumb&&</a>",
+  "链接前缀": "https://www.stonelodgeacademy.com",
+  "链接后缀": "",
+  "线路标题": "></i>&&<",
+  "线路数组": "<a class=\"hl-tabs-btn hl-slide-swiper&&/a>",
+  "搜索url": "https://www.stonelodgeacademy.com/search/?keyword={wd}",
+  "搜索模式": "1",
+  "搜索二次截取": "",
+  "搜索数组": "div.video-grid&&</div>",
+  "搜索图片": "img[data-src=\"&&\"]",
+  "搜索标题": "h3.video-title&&</h3>",
+  "搜索链接": "a.video-thumb&&</a>",
+  "搜索副标题": "",
+  "搜索链接前缀": "https://www.stonelodgeacademy.com",
+  "搜索后缀": "",
+  "播放数组": "div.video-card&&</div>",
+  "影片年代": "暂无具体结构（可忽略或后续补充）",
+  "影片地区": "暂无",
+  "影片类型": "暂无",
+  "导演": "暂无",
+  "主演": "暂无",
+  "简介": "暂无",
+  "播放列表": "暂无",
+  "播放标题": "暂无",
+  "播放链接": "暂无",
+  "播放链接前缀": "",
+  "播放链接后缀": "",
+  "免嗅": "1",
+  "分类": "电影$1#剧集$2#动漫$3#综艺$4#纪录片$5#短剧$6#体育$7#其他$8",
+  "分类url": "https://www.stonelodgeacademy.com/category/{cateId}",
+  "筛选": {
+    // 根据实际情况填写
+  },
+  "影片信息": {
+    "规则": "div.video-info",
+    "内容": [
+      {"label": "年份：", "key": "年份", "pattern": "年份：&&</li>"},
+      {"label": "地区：", "key": "地区", "pattern": "地区：&&</li>"},
+      {"label": "类型：", "key": "类型", "pattern": "类型：&&</li>"},
+      {"label": "导演：", "key": "导演", "pattern": "导演：&&</li>"},
+      {"label": "主演：", "key": "主演", "pattern": "主演：&&</li>"},
+      {"label": "简介：", "key": "简介", "pattern": "简介：&&</li>"}
+    ]
+  }
+}
