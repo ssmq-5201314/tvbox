@@ -1,11 +1,9 @@
 {
   "作者": "AI助手",
   "站名": "达达兔影院",
-  "主页url": "https://www.stonelodgeacademy.com",
-  
+  "主页url": "https://www.stonelodgeacademy.com",  
   "分类": "电影$/movie/#剧集$/series/#动漫$/anime/#综艺$/variety/#纪录片$/documentary/#短剧$/short/#体育$/sport/#其他$/other/",
-  "分类url": "https://www.stonelodgeacademy.com{cateId}?page={catePg}",
-  
+  "分类url": "https://www.stonelodgeacademy.com{cateId}?page={catePg}",  
   "二次截取": "class=\"video-grid\">&&</div>",
   "数组": "class=\"video-card\">&&</div>",
   "图片": "data-src=\"&&\"",
@@ -14,7 +12,6 @@
   "链接": "href=\"&&\"",
   "链接前缀": "https://www.stonelodgeacademy.com",
   "链接后缀": "",
-  
   "搜索url": "https://www.stonelodgeacademy.com/search/?keyword={wd}",
   "搜索模式": "1",
   "搜索二次截取": "",
@@ -23,25 +20,6 @@
   "搜索标题": "class=\"video-title\">&&</h2>",
   "搜索链接": "href=\"&&\"",
   "搜索副标题": "class=\"video-meta\">&&</p>",
-  "搜索链接前缀": "https://www.stonelodgeacademy.com",
-  "搜索链接后缀": "",
-  
-  "影片年代": "",
-  "影片地区": "",
-  "影片类型": "",
-  "导演": "",
-  "主演": "",
-  "简介": "",
-  
-  "线路标题": "",
-  "线路数组": "",
-  
-  "播放数组": "",
-  "播放列表": "",
-  "播放标题": "",
-  "播放链接": "",
-  "播放链接前缀": "",
-  "播放链接后缀": "",
-  
+  "搜索链接前缀": "https://www.stonelodgeacademy.com",  
   "免嗅": "0"
 }
